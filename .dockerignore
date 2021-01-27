@@ -1,0 +1,6 @@
+.env
+certs
+.idea
+.git
+.gitignore
+Dockerfile

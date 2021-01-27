@@ -1,0 +1,13 @@
+=======
+Credits
+=======
+
+Development Lead
+----------------
+
+* Florentio DE SOUZA https://github.com/florentio/website_metrics
+
+Contributors
+------------
+
+None yet. Why not be the first?

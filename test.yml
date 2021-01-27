@@ -1,0 +1,22 @@
+version: "3"
+services:
+
+  test_collector:
+    image: florentio/aiven_hw:latest
+    env_file:
+      - .env
+    volumes:
+      - ./certs:/usr/src/app/certs
+    entrypoint: python3 -u test/test_collector.py
+
+  test_persistor:
+    image: florentio/aiven_hw:latest
+    env_file:
+      - .env
+    volumes:
+      - ./certs:/usr/src/app/certs
+    entrypoint: python3 -u test/test_persistor.py
+
+
+
+
